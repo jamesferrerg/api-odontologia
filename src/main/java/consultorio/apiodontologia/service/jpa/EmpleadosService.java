@@ -18,7 +18,13 @@ public class EmpleadosService implements IEmpleadosService {
 	//@Override
 	public List<Empleado> buscarHabilitados() {
 
-		return repoEmpleados.findByHabilitado(0);
+		return repoEmpleados.findByHabilitado(1);
+	}
+
+	@Override
+	public void guardar(Empleado empleado) {
+		repoEmpleados.save(empleado);
+		
 	}
 
 }

@@ -6,4 +6,5 @@ import consultorio.apiodontologia.entity.Empleado;
 public interface IEmpleadosService {
 
 	List<Empleado> buscarHabilitados();
+	void guardar(Empleado empleado);
 }
