@@ -132,7 +132,7 @@ public class Empleado {
 		this.tieneUsuario = tieneUsuario;
 	}
 
-	public Integer getHabilitado() {
+	public Integer getHabilitado(Integer habilitado) {
 		return habilitado;
 	}
 
